@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /favicon.ai
+Disallow: /.gitignore
+Disallow: /gen_icons.sh
+Disallow: /CNAME
+Sitemap: https://goshdarnreference.com/sitemap.xml
