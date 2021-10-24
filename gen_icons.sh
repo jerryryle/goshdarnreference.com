@@ -15,7 +15,4 @@ echo "Creating PNG icons..."
 magick convert ${ICON_SOURCE} -units PixelsPerInch -density 300 -resize 512x512 android-chrome-512x512.png
 magick convert ${ICON_SOURCE} -units PixelsPerInch -density 300 -resize 192x192 android-chrome-192x192.png
 magick convert ${ICON_SOURCE} -units PixelsPerInch -density 300 -resize 180x180 apple-touch-icon.png
-magick convert ${ICON_SOURCE} -units PixelsPerInch -density 300 -resize 16x16 favicon-16x16.png
-magick convert ${ICON_SOURCE} -units PixelsPerInch -density 300 -resize 32x32 favicon-32x32.png
-magick convert ${ICON_SOURCE} -resize 150x150 mstile-150x150.png
 echo "Done!"
